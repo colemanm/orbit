@@ -5,3 +5,5 @@ Vietnam's [Ha Long Bay](http://en.wikipedia.org/wiki/Ha_Long_Bay) is famous for 
 [View Map](http://a.tiles.mapbox.com/v3/colemanm.map-h3n78ecg.html#10.00/20.8569/467.0580)
 
 ![Ha Long Bay](screenshot.jpg)
+
+Source: [Mapbox](http://mapbox.com)

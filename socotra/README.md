@@ -5,3 +5,5 @@
 [View Map](http://a.tiles.mapbox.com/v3/colemanm.map-h3n78ecg.html#9.00/12.4348/414.0204)
 
 ![Socotra Island](screenshot.jpg)
+
+Source: [Mapbox](http://mapbox.com)

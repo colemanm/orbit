@@ -5,3 +5,5 @@ The Tigris and Euphrates Rivers (foundation of the "Fertile Crescent") combine n
 [View Map](http://a.tiles.mapbox.com/v3/colemanm.map-h3n78ecg.html#10.00/29.9761/408.7036)
 
 ![Oil Delta](screenshot.jpg)
+
+Source: [Mapbox](http://mapbox.com)

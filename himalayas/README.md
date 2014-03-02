@@ -5,3 +5,5 @@ The Himalayan mountains of eastern Nepal. Through the process of orographic lift
 [View Map](http://a.tiles.mapbox.com/v3/colemanm.map-h3n78ecg.html#9.00/28.0722/446.4150)
 
 ![Himalayas](screenshot.jpg)
+
+Source: [Mapbox](http://mapbox.com)

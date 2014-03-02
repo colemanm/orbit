@@ -5,3 +5,5 @@ The glaciers and snow-capped peaks of the [Chugach National Forest](http://en.wi
 [View Map](http://a.tiles.mapbox.com/v3/colemanm.map-h3n78ecg.html#9.00/61.2937/212.2709)
 
 ![Glaciers](screenshot.jpg)
+
+Source: [Mapbox](http://mapbox.com)

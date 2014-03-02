@@ -5,3 +5,5 @@ The famous [Nordfjord](http://en.wikipedia.org/wiki/Nordfjord) of Norway and the
 [View Map](http://a.tiles.mapbox.com/v3/colemanm.map-h3n78ecg.html#9.00/62.0753/6.1344)
 
 ![Nordfjord](screenshot.jpg)
+
+Source: [Mapbox](http://mapbox.com)

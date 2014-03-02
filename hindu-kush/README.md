@@ -5,3 +5,5 @@ The [Hindu Kush](http://en.wikipedia.org/wiki/Hindu_Kush) range stretches from t
 [View Map](http://a.tiles.mapbox.com/v3/colemanm.map-h3n78ecg.html#9.00/34.1270/429.7482)
 
 ![Hindu Kush](screenshot.jpg)
+
+Source: [Mapbox](http://mapbox.com)
