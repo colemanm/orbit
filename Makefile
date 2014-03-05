@@ -1,2 +1,3 @@
 clean:
-	rm images/thumbs/*
+	rm -rf thumbs/*
+	rm -rf place/*

@@ -11,20 +11,37 @@ class Orbit < Thor
 
   desc "site", "Generate main index page and subpages."
   def site
-    files = Dir.glob('../images/thumbs/*')
+    files = Dir.glob('../thumbs/*')
     files.each { |file| file.sub!(/../, '') }
 
-    content = "---\nlayout: default\n---\n\n"
+    index_content = "---\nlayout: default\n---\n\n"
+
     files.each do |file|
-      puts file
-      content << "<div class='image'><a href='place/'><img src='#{file}' /></a></div>\n"
+      index_content << "<div class='image'><a href='place/#{basename(file)}/'><img src='#{file}' /></a></div>\n"
     end
 
-    # File.open("../index.html", "wt") do |f|
-    #   f.write(content)
-    # end
+    File.open("../index.html", "wt") do |f|
+      f.write(index_content)
+    end
 
-    puts parse_title("glaciers")
+    files.each do |file|
+      path = "../place/#{basename(file)}/"
+
+      FileUtils.mkdir_p(path) unless File.directory?(path)
+      File.open("#{path}index.html", "wt") do |f|
+        place_content = "---\nlayout: default\n---\n\n"
+        place_content <<
+"<div>
+  <img src='/images/#{basename(file)}/screenshot.jpg' />
+  <ul class='downloads'>
+    <li>iPhone 5</li>
+    <li>iPhone 4</li>
+    <li>iPad</li>
+  </ul>
+</div>"
+        f.write(place_content)
+      end
+    end
   end
 
   no_tasks do
@@ -37,6 +54,10 @@ class Orbit < Thor
 
     def generate_page(title)
 
+    end
+
+    def basename(file)
+      File.basename(file, ".*")
     end
 
   end
