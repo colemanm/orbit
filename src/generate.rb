@@ -29,14 +29,14 @@ class Orbit < Thor
 
       FileUtils.mkdir_p(path) unless File.directory?(path)
       File.open("#{path}index.html", "wt") do |f|
-        place_content = "---\nlayout: default\n---\n\n"
+        place_content = "---\nlayout: detail\n---\n\n"
         place_content <<
 "<div>
-  <img src='../../images/#{basename(file)}/screenshot.jpg' />
+  <img class='screenshot' src='../../images/#{basename(file)}/screenshot.jpg' />
   <ul class='downloads'>
-    <li>iPhone 5</li>
-    <li>iPhone 4</li>
-    <li>iPad</li>
+    <li><a href='../../images/#{basename(file)}/iphone5-#{basename(file)}.jpg'>iPhone 5</a></li> <span class='bullet'>&bull;</span>
+    <li><a href='../../images/#{basename(file)}/iphone4-#{basename(file)}.jpg'>iPhone 4</a></li> <span class='bullet'>&bull;</span>
+    <li><a href='../../images/#{basename(file)}/ipad-#{basename(file)}.jpg'>iPad</a></li>
   </ul>
 </div>"
         f.write(place_content)

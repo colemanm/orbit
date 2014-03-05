@@ -25,9 +25,10 @@ time, mark, audio, video {
   }
 
 body {
-  font-family:'Orbitron', sans-serif;
+  font-family:'Source Sans Pro', sans-serif;
   background-color:#111;
   color:#fff;
+  background:url('bg.jpg') repeat; max-width:100%;
 }
 h1, h2, h3, h4 { font-weight:bold; }
 
@@ -35,6 +36,7 @@ h1 {
   font-size:4em;
   margin-bottom:10px;
 }
+h1 a { color:#fff; text-decoration:none; }
 h2 {
   font-size:1.8em;
   font-weight:normal;
@@ -52,10 +54,12 @@ h2 {
 
 .image {
   float:left;
-  margin:8px;
+  margin:17px;
 }
+.screenshot { max-width: 852px; border:15px solid rgba(255, 255, 255, .2); }
 
 .downloads {
+  font-size:1.5em;
   padding:0;
   list-style:none;
   text-align:center;
@@ -63,7 +67,14 @@ h2 {
 }
 .downloads li {
   display:inline;
-  margin:40px;
+  width: 80px;
+}
+.downloads a {
+  text-decoration:none;
+  color:#fff;
+}
+.downloads a:hover {
+  color:#ccc;
 }
 
 #footer {
@@ -78,5 +89,5 @@ h2 {
 }
 
 #footer a:hover {
-  color:#ccc;
+
 }
