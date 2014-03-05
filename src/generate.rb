@@ -17,7 +17,7 @@ class Orbit < Thor
     index_content = "---\nlayout: default\n---\n\n"
 
     files.each do |file|
-      index_content << "<div class='image'><a href='place/#{basename(file)}/'><img src='#{file}' /></a></div>\n"
+      index_content << "<div class='image'><a href='place/#{basename(file)}/'><img src='thumbs/#{basename(file)}.jpg' /></a></div>\n"
     end
 
     File.open("../index.html", "wt") do |f|
@@ -32,7 +32,7 @@ class Orbit < Thor
         place_content = "---\nlayout: default\n---\n\n"
         place_content <<
 "<div>
-  <img src='/images/#{basename(file)}/screenshot.jpg' />
+  <img src='../images/#{basename(file)}/screenshot.jpg' />
   <ul class='downloads'>
     <li>iPhone 5</li>
     <li>iPhone 4</li>
