@@ -31,18 +31,23 @@ body {
 }
 h1, h2, h3, h4 { font-weight:bold; }
 
-h1 { font-size:3em; }
+h1 {
+  font-size:4em;
+  margin-bottom:10px;
+}
 h2 {
-  font-size:2em;
+  font-size:1.8em;
   font-weight:normal;
   font-style:italic;
 }
-#header { text-align:center; }
+#header {
+  text-align:center;
+  margin-bottom:20px;
+}
 
 #container {
   width:800px;
   margin:30px auto;
-  border: 1px solid white;
 }
 
 .image {
@@ -59,6 +64,7 @@ h2 {
 #footer a {
   color:#fff;
   text-decoration:none;
+  opacity:0.5;
 }
 #footer a:hover {
   color:#ccc;

@@ -1,0 +1,226 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Volga Delta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.79052734375,
+          46.09609080214316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chad Saharan dunes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.588134765625,
+          18.955648870479035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Algerian Desert"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.84173583984375,
+          26.380797705089822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Algerian Desert"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7378997802734373,
+          25.36326181448847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Niger River, Mopti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.306640625,
+          14.689881366618774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0494384765625,
+          16.156644815257152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lake Chad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.17236328125,
+          13.255986429192898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shebelle River Canyon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.23831176757812,
+          7.2725678584075775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lake Turkana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.1285400390625,
+          3.491489430459778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Kenya Ravines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.45263671875,
+          -1.9236192337659013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mount Kilimanjaro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.35557556152344,
+          -3.0685241410621833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Okavango Delta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.65106201171875,
+          -19.093266636089712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Namib Desert"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0238037109375,
+          -24.254477199450612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cape Town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.83056640625,
+          -33.913733814316245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Atacama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.74307250976562,
+          -23.729411967136045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taklamakan Desert"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.254638671875,
+          37.97884504049713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Akpatok Island"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.15093994140625,
+          60.4097838727602
+        ]
+      }
+    }
+  ]
+}
