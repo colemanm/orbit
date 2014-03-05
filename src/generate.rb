@@ -16,10 +16,9 @@ class Orbit < Thor
 
     content = "---\nlayout: default\n---\n\n"
     files.each do |file|
+      puts file
       content << "<div class='image'><a href='place/'><img src='#{file}' /></a></div>\n"
     end
-
-    # puts content
 
     # File.open("../index.html", "wt") do |f|
     #   f.write(content)

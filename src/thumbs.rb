@@ -7,7 +7,7 @@ require 'find'
 require 'pathname'
 
 files = []
-thumbs_dir = '../images/_thumbs'
+thumbs_dir = '../thumbs'
 
 Find.find('../images/') do |path|
   files << path if path =~ /ipad-.*\.jpg$/
@@ -19,7 +19,7 @@ files.each do |file|
 
   img = Magick::Image::read(file).first
   thumb = img.resize_to_fill(250,200)
-  thumb.write "#{thumbs_dir}/#{filename}_thumb.jpg"
+  thumb.write "#{thumbs_dir}/#{filename}.jpg"
 
-  puts "#{filename}_thumb.jpg generated."
+  puts "#{filename}.jpg generated."
 end

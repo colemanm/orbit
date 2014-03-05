@@ -1,2 +1,2 @@
 clean:
-	rm images/_thumbs/*
+	rm images/thumbs/*
