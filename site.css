@@ -1,0 +1,65 @@
+/*  Reset ♥
+    http://meyerweb.com/eric/tools/css/reset/
+    v2.0 | 20110126
+    License: none (public domain)
+------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  font:inherit;
+  vertical-align:baseline;
+  }
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color:#111;
+  color:#fff;
+}
+h1, h2, h3, h4 { font-weight:bold; }
+
+h1 { font-size:3em; }
+h2 {
+  font-size:2em;
+  font-weight:normal;
+  font-style:italic;
+}
+#header { text-align:center; }
+
+#container {
+  width:800px;
+  margin:30px auto;
+  border: 1px solid white;
+}
+
+.image {
+  float:left;
+  margin:8px;
+}
+
+#footer {
+  clear:left;
+  color:#fff;
+  text-align:center;
+  padding:30px;
+}
+#footer a {
+  color:#fff;
+  text-decoration:none;
+}
+#footer a:hover {
+  color:#ccc;
+}

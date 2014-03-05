@@ -18,7 +18,7 @@ files.each do |file|
   filename = path.basename.to_s.sub(/ipad-/, '').sub(/.jpg$/, '')
 
   img = Magick::Image::read(file).first
-  thumb = img.resize_to_fill(500,500)
+  thumb = img.resize_to_fill(250,200)
   thumb.write "#{thumbs_dir}/#{filename}_thumb.jpg"
 
   puts "#{filename}_thumb.jpg generated."

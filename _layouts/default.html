@@ -6,12 +6,21 @@
   <title>orbit | your earth is beautiful</title>
   <meta charset='utf-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
-  <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
+  <link rel='shortcut icon' href='{{site.baseurl}}images/favicon.ico' type='image/x-icon' />
+  <link href='{{site.baseurl}}site.css' rel='stylesheet' />
+  <link href='http://fonts.googleapis.com/css?family=Orbitron:400,700,500' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <div class='container'>
+<div id='container'>
+  <div id='header'>
+    <h1>orbit</h1>
+    <h2>the earth is beautiful.</h2>
+  </div>
+  <div class='content'>
     {{content}}
   </div>
-  <script src='{{site.baseurl}}/site.js'></script>
+  <div id='footer'>
+    <a href='http://github.com/colemanm/orbit' title='view on github'>on github</a>
+  </div>
+</div>
 </body>
