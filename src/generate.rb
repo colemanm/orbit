@@ -32,7 +32,7 @@ class Orbit < Thor
         place_content = "---\nlayout: default\n---\n\n"
         place_content <<
 "<div>
-  <img src='../images/#{basename(file)}/screenshot.jpg' />
+  <img src='../../images/#{basename(file)}/screenshot.jpg' />
   <ul class='downloads'>
     <li>iPhone 5</li>
     <li>iPhone 4</li>
