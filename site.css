@@ -52,11 +52,29 @@ h2 {
   margin:30px auto;
 }
 
+.back {
+  text-align:center;
+}
+.back a {
+  text-decoration:none;
+  color:#555;
+}
 .image {
   float:left;
   margin:17px;
 }
 .screenshot { max-width: 852px; border:15px solid rgba(255, 255, 255, .2); }
+
+.title {
+  font-size:2em;
+  text-align:center;
+  margin:8px 0;
+}
+.description {
+  width:85%;
+  margin:0 auto;
+  line-height:1.5em;
+}
 
 .downloads {
   font-size:1.5em;

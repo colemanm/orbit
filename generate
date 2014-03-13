@@ -1,0 +1,5 @@
+#!/bin/sh
+
+make clean
+src/thumbs.rb
+src/generate.rb site
